@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.qass{
+    font-size: 12px;
+    font-family: 'Poppins';
+
+}
+.container .p1{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    text-transform: capitalize;
+}
+.container .p2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1;
+    color: #000000;
+}
+.sext a{
+    text-decoration: none !important;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4F4F4F;
+}
+.sext a:hover{
+    color: maroon;
+}
+.row .dropdown-item{
+    font-size: 15px;
+    font-family: 'Poppins';
+    background-color: transparent !important;
+    
+}
+.sext i{
+    color: #33B5AB; 
+}
+.waq{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    color: #4F4F4F;
+    
+}
+.wasq{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    color: #4F4F4F;
+}
+.wako{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    color: #58B855;
+}
+.container .amt{
+    font-family:'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    color: #595959;
+}
+.container .amt1{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-decoration-line: line-through;
+    color: #FF9101;
+}
+.container .amt2{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #33B5AB;
+    text-transform: capitalize;
+    margin-bottom: -5px;
+
+}
+.card{
+    background: #FFFFFF;
+    box-shadow: -4px 2px 10px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+}
+.pro{
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.82143px;
+    line-height: 10px;
+    color: #FFFFFF;
+    
+}
+.anc{
+    text-decoration: none !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.82143px;
+    line-height: 10px;
+    color: #FFFFFF;
+    
+}
+.sixt i{
+    color: white;
+}
+.foot{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    color: #C4C4C4;    
+}
+a{
+    text-decoration: none !important;
+}
+* {box-sizing: border-box}
+
+.wawii{
+    border: 0.878788px solid #33B5AB;
+    box-sizing: border-box;
+    border-radius: 5px 4.39394px 4.39394px 5px;
+    color: #33B5AB;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    color: #33B5AB;
+    
+}
+.wawii:hover{
+    background-color: #33B5AB;
+    color: white;
+}
+/* Container needed to position the overlay. Adjust the width as needed */
+.containers{
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.3); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+  font-family: 'poppins';
+  
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.containers:hover .overlay {
+  opacity: 1;
+}
+ /* Dropdown Button */
+ .dropbtn {
+	background-color: transparent;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	display: none;
+	position: relative;
+	bottom: -120%;
+	left: 70%;
+	top: 95%;
+	position: absolute;
+	background-color: #f1f1f1;
+    min-width: 350px;
+    min-height: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	/* padding: 3px 6px; */
+
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	color: grey;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-family: 'Roboto'!important;
+	font-weight: 600;
+	font-size: 14px;
+  }
+
+  
+  
+  /* Change color of dropdown links on hover */
+  /* .dropdown-content a:hover {background-color: #ddd;} */
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: transparent;}
+/* for the brands carousel */
+
+
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}

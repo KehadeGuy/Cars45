@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.android{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 52px;
+    /* identical to box height */
+
+    color: #444444;
+
+}
+.quint img{
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+.descc{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #444444;
+}
+/* custom quantity botton */
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .number-input {
+    border: 1px solid #ddd;
+    display: inline-flex;
+    border-radius: 12.5px;
+  }
+  
+  .number-input,
+  .number-input * {
+    box-sizing: border-box;
+  }
+  
+  .number-input button {
+    outline:none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2rem;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+    font-size: 12px;
+    
+  }
+  
+  .number-input button:before,
+  .number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 1rem;
+    height: 2px;
+    background-color: #212121;
+    transform: translate(-50%, -50%);
+  }
+  .number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  
+  .number-input input[type=number] {
+    font-family: 'Poppins';
+    max-width: 3rem;
+    padding: .5rem;
+    border: solid #ddd;
+    border-width: 0 2px;
+    font-size: 17px;
+    height: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #444444;
+  }
+  /*end  */
+.sales{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    color: #B4B5B4;
+}
+.p7{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;    
+    color: #4F4F4F;
+    
+}
+.p8{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+.p9{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #62B369;
+    text-decoration: none !important;
+}
+.p9:hover{
+    color: maroon;
+}

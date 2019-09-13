@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.west{
+    background-image: url(../img/Group4grad.svg) !important;
+    background-size: cover;
+    /* height: 100vh; */
+    
+}
+i{
+    color: #CA9F5E;
+}
+.west1{
+    margin-top: 12%;
+    margin-left: 35%;
+    /* margin-left: 22.3%; */
+}
+.west2{
+    margin-top: 30%;
+    margin-left: 25%;
+
+}
+.west3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18.3333px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.foot{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 9px;
+    line-height: 26px;
+    color: #C4C4C4;   
+    margin-top: 90px;
+}
+.formway{
+    margin-top: 2%;
+    margin-left: 20%;
+
+}
+.formway_1{
+    margin-top: 8%;
+    margin-left: 12%;
+
+}
+.form_1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28.51px;
+    line-height: 32px;
+    color: #2A672D;
+    text-transform: capitalize;
+    margin-left: 14%;
+    
+}
+.form_2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.0081px;
+    line-height: 23px;
+    color: #4F4F4F;
+    text-transform: uppercase;   
+}
+.form_2_1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.0081px;
+    line-height: 23px;  
+    color: #4F4F4F;
+    text-transform: uppercase;   
+    margin-left: 14%;
+    margin-top: -9px;
+}
+.form_3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #4F4F4F;
+}
+.form_31{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #4F4F4F;
+}
+.form_4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.0081px;
+    line-height: 23px;
+    color: #4F4F4F;
+    text-transform: capitalize;
+    margin-left: 20%;
+}
+.stylebut{
+    background-color: #2A672D;
+    color:white;
+    font-family: 'Poppins';
+    box-shadow: -5.0027px 5.0027px 5.0027px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.stylebut2{
+    background-color: white;
+    color:black;
+    font-family: 'Poppins';
+    box-shadow: -5.0027px 5.0027px 5.0027px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
