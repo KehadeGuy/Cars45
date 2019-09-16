@@ -4,31 +4,51 @@ body{
     margin: 0;
     padding: 0;
 }
-.west{
-    background-image: url(../img/Group4grad.svg) !important;
-    background-size: cover;
-    /* height: 100vh; */
 
+.babes{
+    background-image: url(../img/Mask\ Grouplandss.png);
+    background-size: cover;
+    padding-bottom: 4.1% !important;
     
 }
-.west1{
-    margin-top: 12%;
-    margin-left: 35%;
+.capps{
+    background: #FFFFFF;
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 5% 5%;
 }
-.west2{
-    margin-top: 30%;
-    margin-left: 25%;
-
-}
-.west3{
+::-webkit-input-placeholder { /* Edge */
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 200;
-    font-size: 18.3333px;
-    line-height: 38px;
-    text-align: center;
-    color: #FFFFFF;
-}
+    font-weight: normal;
+    font-size: 10.625px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #707070;
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.625px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #707070;
+      }
+      
+      ::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.625px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #707070;
+      }
 .foot{
     font-family: 'Roboto';
     font-style: normal;
@@ -39,7 +59,7 @@ body{
     margin-top: 75px;
 }
 .formway{
-    margin-top: 15%;
+    margin-top: 13%;
     margin-left: 20%;
 
 }
@@ -47,20 +67,22 @@ body{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 28.51px;
+    font-size: 21.51px;
     line-height: 32px;
-    color: #33444D;
-    text-transform: capitalize;
+    /* identical to box height */
+
+    color: #191718;
     
 }
 .form2{
-    font-family: 'Poppins';
+    font-family:'Poppins';
     font-style: normal;
     font-weight: normal;
-    font-size: 15.0081px;
-    line-height: 23px;
+    font-size: 13.9543px;
+    line-height: 21px;
+
     color: #4F4F4F;
-    text-transform: capitalize;
+
 }
 .form3{
     font-family: 'Poppins';
@@ -81,14 +103,11 @@ body{
     margin-left: 20%;
 }
 .stylebut{
-    background-color: #2A672D;
+    background-color: #33B5AB;
     color:white;
     font-family: 'Poppins';
     box-shadow: -5.0027px 5.0027px 5.0027px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    border: none !important;
 }
 
-/* Index4 styling */
-.form_1{
-    margin-left: 24%;
-}

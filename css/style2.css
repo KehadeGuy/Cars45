@@ -15,6 +15,9 @@ body{
     color: #444444;
 
 }
+.sonya{
+  border-left: 5px solid #33B5AB !important;
+}
 .quint img{
     width: 50%;
     margin-left: 20%;

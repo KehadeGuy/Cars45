@@ -11,12 +11,60 @@ body{
     /* max-height: 110vh; */
     
 }
-i{
-    color:#3B144E;;
+.babes{
+    background-image: url(../img/Mask\ Grouplandss.png);
+    background-size: cover;
+    padding-bottom: 2.1% !important;
+    
 }
-.nav-item{
-    background-color: #3B144E;
+.capps{
+    background: #FFFFFF;
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 5% 5%;
+    margin-top: 10% !important;
+}
+::-webkit-input-placeholder { /* Edge */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.625px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #707070;
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.625px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #707070;
+      }
+      
+      ::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.625px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #707070;
+      }
+i{
+    color: #33B5AB;
+}
+.nav-pills .nav-item{
+    background-color: grey;
     color: #FFFFFF;
+}
+.dropdown-menu a{
+    color: black !important;
 }
 
 .nav-item a{
@@ -25,7 +73,7 @@ i{
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
     color: #fff;
-    background-color: #702793;
+    background-color: #33B5AB;
 }
 .west1{
     margin-top: 12%;
@@ -33,35 +81,35 @@ i{
     /* margin-left: 22.3%; */
 }
 .stret{
-    background-color: #3B144E;
+    background-color: #33B5AB;
     color: white;
     margin-top: 10% !important;
     font-family: 'Poppins';
 }
 .stret:hover{
-    background-color: #702793;
+    background-color: grey;
     color: white;
 }
 .stret1{
-    background-color: #3B144E;
+    background-color: #33B5AB;
     color: white;
     margin-top: 10% !important;
     margin-bottom: 5%;
     font-family: 'Poppins';
 }
 .stret1:hover{
-    background-color: #702793;
+    background-color: grey;
     color: white;
 }
 .stret2{
-    background-color: #702793;
+    background-color: #33B5AB;
     color: white;
     margin-top: 10% !important;
     margin-bottom: 5%;
     font-family: 'Poppins';
 }
 .stret2:hover{
-    background-color: #3B144E;
+    background-color: grey;
     color: white;
 }
 .west2{
@@ -87,45 +135,37 @@ i{
     color: #C4C4C4;   
     margin-top: 90px;
 }
-.formway{
-    margin-top: 2%;
-    margin-left: 20%;
 
-}
-.formway_1{
-    margin-top: 8%;
-    margin-left: 12%;
-
-}
 .form_1{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 28.51px;
+    font-size: 20.51px;
     line-height: 32px;
-    color: #3B144E;;
+    color: #33B5AB;
     text-transform: capitalize;
-    margin-left: 14%;
+   
     
 }
 .form_2{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: normal;
-    font-size: 13.0081px;
+    font-size: 11.0081px;
     line-height: 23px;
     color: #4F4F4F;
-    text-transform: uppercase;   
+    text-transform: uppercase; 
+    
 }
 .form_2_1{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: normal;
-    font-size: 13.0081px;
+    font-size: 11.0081px;
     line-height: 23px;  
     color: #4F4F4F;
     text-transform: uppercase;   
-    margin-left: 14%;
+    
     margin-top: -9px;
 }
 .form_3{
@@ -159,7 +199,7 @@ i{
     margin-left: 20%;
 }
 .stylebut{
-    background-color: #702793;
+    background-color: #33B5AB;
     color:white;
     font-family: 'Poppins';
     box-shadow: -5.0027px 5.0027px 5.0027px rgba(0, 0, 0, 0.1);
@@ -171,6 +211,9 @@ i{
     font-family: 'Poppins';
     box-shadow: -5.0027px 5.0027px 5.0027px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+}
+.collapse .nav-link {
+    background: transparent !important;
 }
 
 

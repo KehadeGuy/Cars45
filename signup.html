@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- <link rel="shortcut icon" type="image/png" href="img/Grouplogo1.png"> -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f24b2b73f9.js"></script>
+    <link rel="stylesheet" href="css/pol.css">
+
+    <title>Sign Up</title>
+</head>
+
+<body style="overflow-x: hidden;">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="img/imagecars45log.svg" alt="compl">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Help
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid babes">
+        <div class="d-flex justify-content-end">
+            <div class="col-md-4">
+                <div class="d-flex flex-column capps">
+                    <div class="form-signin">
+                        <p class="form_1">Sign Up</p>
+                        <p class="form_2">all information provided will be used to verify your identity</p>
+                        <p class="form_2_1">kindly ensure they are correct</p>
+                    </div>
+                    <div>
+                        <ul class="nav nav-pills nav-justified" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                                    role="tab" aria-controls="pills-home" aria-selected="true">
+                                    Account Details
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                                    role="tab" aria-controls="pills-profile" aria-selected="false">Personal Details</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
+                                    role="tab" aria-controls="pills-contact" aria-selected="false">Employment
+                                    Details</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content mt-5" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+                                <div>
+                                    <label for="AccountNumb" class="form_3">Account Number:</label>
+                                    <input type="text" name="accountNumb" id="AccountNumb" class="form-control mb-3"
+                                        required style="width:100%; " placeholder="Account Number">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="d-flex flex-row">
+                                                <div class="mr-5">
+                                                    <label for="ExpiryDat" class="form_3">Expiry Date:</label>
+                                                    <input type="date" name="expiryDat" id="ExpiryDat"
+                                                        class="form-control mb-5" required style="width:110%; "
+                                                        placeholder="Expiry Date">
+                                                </div>
+                                                <div class="ml-2">
+                                                    <label for="CVV" class="form_3">CVV:</label>
+                                                    <input type="text" name="cvv" id="CVV" class="form-control mb-5"
+                                                        required style="width:230%; " placeholder="CVV">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <input name="submit" value="Submit" type="submit" class="stylebut mb-4"
+                                        style="width:100%;">
+                                    <p class="form_4">already have an account?<a href="index3.html"
+                                            style="text-decoration: none !important;">
+                                            Sign In</a>
+                                    </p>
+                                    <input type="button" class="btn stret" value="Next" style="padding: 0.5rem 3rem;"
+                                        onclick="myClicked('pills-profile-tab');">
+                                    <!-- <a href="" class="btn stret" style="padding: 0.5rem 3rem;" onclick="myClicked();">Next</a> -->
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-user fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="FirstName" class="form_31">First Name:</label>
+                                                    <input type="text" name="firstname" id="FirstName"
+                                                        class="form-control mb-4" required style="width:150%; "
+                                                        placeholder="first name">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 ml-4">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-user fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="LastName" class="form_31">Last Name:</label>
+                                                    <input type="text" name="lastname" id="LastName"
+                                                        class="form-control mb-4" required style="width:150%; "
+                                                        placeholder="last name">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-md-5">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-venus-mars fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="Gender" class="form_31">Gender:</label>
+                                                    <select class="custom-select" id="Gender" name="gender" required
+                                                        style="width:150%;">
+                                                        <option selected>Select...</option>
+                                                        <option value="1">Male</option>
+                                                        <option value="2">Female</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-user fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="Gender" class="form_31">Age Range:</label>
+                                                    <select class="custom-select" id="Gender" name="gender" required
+                                                        style="width:150%;">
+                                                        <option selected>Select...</option>
+                                                        <option value="1">18 - 40</option>
+                                                        <option value="2">40 -60</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-home fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="ResidentialAdd" class="form_31">Residential
+                                                        Address:</label>
+                                                    <input type="text" name="residentialAdd" id="ResidentialAdd"
+                                                        class="form-control mb-4" required style="width:150%; "
+                                                        placeholder="Address">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 ml-3">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-flag fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="City" class="form_31">City:</label>
+                                                    <input type="text" name="city" id="City" class="form-control mb-4"
+                                                        required style="width:150%; " placeholder="City">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-user fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="Marital" class="form_31">Marital Status:</label>
+                                                    <select class="custom-select" id="Marital" name="marital" required
+                                                        style="width:150%;">
+                                                        <option selected>Select...</option>
+                                                        <option value="1">Male</option>
+                                                        <option value="2">Female</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-flag-checkered fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="National" class="form_31">Nationality:</label>
+                                                    <input type="text" name="national" id="National"
+                                                        class="form-control mb-4" required style="width:150%; "
+                                                        placeholder="Nationality">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-bank fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="BankVer" class="form_31">Bank Verification
+                                                        Number:</label>
+                                                    <input type="text" name="bankVer" id="BankVer"
+                                                        class="form-control mb-4" required style="width:150%; "
+                                                        placeholder="BVN">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 ml-4">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-phone-alt fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="PhoneNumber" class="form_31">Phone Number:</label>
+                                                    <input type="text" name="phoneNumber" id="PhoneNumber"
+                                                        class="form-control mb-4" required style="width:150%; "
+                                                        placeholder="Telephone">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-4">
+                                            <input type="button" class="btn stret2" value="Previous"
+                                                style="padding: 0.5rem 3rem;" onclick="myClicked('pills-home-tab');">
+                                            <!-- <a href="#" class="btn stret2" style="padding: 0.5rem 3rem;">Previous</a> -->
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input type="button" class="btn stret1" value="Next"
+                                                style="padding: 0.5rem 3rem; margin-left: 60%;"
+                                                onclick="myClicked('pills-contact-tab');">
+                                            <!-- <a href="#" class="btn stret1" style="padding: 0.5rem 3rem; margin-left: 60%;">Next</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                aria-labelledby="pills-contact-tab" id="employ">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-suitcase fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="EmployStat" class="form_31">Employment Status:</label>
+                                                    <select class="custom-select" id="EmployStat" name="employStat"
+                                                        required style="width:150%;">
+                                                        <option selected>Select...</option>
+                                                        <option value="1">Employed</option>
+                                                        <option value="2">Unemployed</option>
+                                                    </select>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 ml-4">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-suitcase fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="CompName" class="form_31">Name of Company:</label>
+                                                    <input type="text" name="compname" id="CompName"
+                                                        class="form-control mb-4" required style="width:150%; "
+                                                        placeholder="Company Name">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-md-5">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-address-card fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="CompAdd" class="form_31">Company Address:</label>
+                                                    <input type="text" name="compAdd" id="CompAdd"
+                                                        class="form-control mb-4" required style="width:150%; "
+                                                        placeholder="Address">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 ml-4">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-user fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="State" class="form_31">State:</label>
+                                                    <select class="custom-select" id="State" name="state" required
+                                                        style="width:150%;">
+                                                        <option selected>Select...</option>
+                                                        <option value="1">Lagos State</option>
+                                                        <option value="2">Ogun State</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-address-card fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="CompLGA" class="form_31">Company LGA:</label>
+                                                    <input type="text" name="compLGA" id="CompLGA"
+                                                        class="form-control mb-4" required style="width:150%; "
+                                                        placeholder="Company LGA">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 ml-4">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-suitcase fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="Jobtit" class="form_31">Job Title:</label>
+                                                    <input type="text" name="jobtit" id="Jobtit"
+                                                        class="form-control mb-4" required style="width:150%; "
+                                                        placeholder="Job Title">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="d-flex flex-row">
+                                                <i class="fas fa-th-large fa m-2"></i>
+                                                <div class="d-flex flex-column">
+                                                    <label for="SalaryRan" class="form_31">Salary Range:</label>
+                                                    <select class="custom-select" id="SalaryRan" name="salaryRan"
+                                                        required style="width:150%;">
+                                                        <option selected>Select...</option>
+                                                        <option value="1">#300,000</option>
+                                                        <option value="2">#200,190</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-5">
+                                        <div class="col-md-4">
+                                            <input type="submit" class="btn stret2" value="Previous"
+                                                style="padding: 0.5rem 3rem;" onclick="myClicked('pills-profile-tab');">
+                                            <!-- <a href="#" class="btn stret2" style="padding: 0.5rem 3rem;">Previous</a>  -->
+                                            <!-- http://xandar.lendaba.com:8087/createUser/1/p@ff.cc#employment -->
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input type="submit" class="btn stret1" value="Submit"
+                                                style="padding: 0.5rem 3rem; margin-left: 60%;">
+                                            <!-- <a href="#" class="btn stret2" style="padding: 0.5rem 3rem;">Previous</a>  -->
+                                            <!-- http://xandar.lendaba.com:8087/createUser/1/p@ff.cc#employment -->
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+        <script>
+            function myClicked(a) {
+                document.getElementById(a).click();
+            }
+
+
+
+        </script>
+</body>
+
+</html>
